@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Simple Gallery - Categories</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>Gallery Showcase</h1>
+        <p class="subtitle">Your window to the world of art.</p>
+    </header>
+
+    <nav class="categories" id="categories"></nav>
+
+    <main class="gallery-wrapper">
+        <section id="gallery" class="gallery"></section>
+    </main>
+
+    <template id="card-template">
+        <article class="card">
+            <div class="thumb"></div>
+            <div class="meta">
+                <h3 class="title"></h3>
+                <p class="caption"></p>
+            </div>
+        </article>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
