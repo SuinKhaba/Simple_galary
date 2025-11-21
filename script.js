@@ -1,11 +1,11 @@
 
 const data = [
-    { id: 1, title: 'Mountain Trip', category: 'Nature', caption: 'Snowy peaks', image: 'images/mountain_trip.jpg' },
-    { id: 2, title: 'City Lights', category: 'Urban', caption: 'Skyscrapers', image: 'images/city_light.jpeg' },
-    { id: 3, title: 'Forest Walk', category: 'Nature', caption: 'Green trees', image: 'images/forest_walk.jpeg' },
-    { id: 4, title: 'Modern Art', category: 'Design', caption: 'Abstract shapes', image: 'images/morder_art.jpeg' },
-    { id: 5, title: 'Old Town', category: 'Urban', caption: 'Streets', image: 'images/old_town.jpeg' },
-    { id: 6, title: 'Minimal Poster', category: 'Design', caption: 'Typography', image: 'images/minimal_poster.jpg' }
+    { id: 1, title: 'Mountain Trip', category: 'Nature', caption: 'Snowy peaks', image: 'mountain_trip.jpg' },
+    { id: 2, title: 'City Lights', category: 'Urban', caption: 'Skyscrapers', image: 'city_light.jpeg' },
+    { id: 3, title: 'Forest Walk', category: 'Nature', caption: 'Green trees', image: 'forest_walk.jpeg' },
+    { id: 4, title: 'Modern Art', category: 'Design', caption: 'Abstract shapes', image: 'morder_art.jpeg' },
+    { id: 5, title: 'Old Town', category: 'Urban', caption: 'Streets', image: 'old_town.jpeg' },
+    { id: 6, title: 'Minimal Poster', category: 'Design', caption: 'Typography', image: 'minimal_poster.jpg' }
 ];
 
 const categories = ["All", ...new Set(data.map(d => d.category))];
